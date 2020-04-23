@@ -2,6 +2,15 @@
 
 *{margin: 0;padding: 0;}
 
+
+.menu ul{
+    display: block;
+}
+
+#mobile{
+    display: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -29,7 +38,7 @@ footer{
 }
 
 .container{
-    width: 80%;
+    width: 85%;
     align-items: center;
     margin: 0 auto;
 }
@@ -80,7 +89,6 @@ nav{
 }
 
 #info{
-    width: 400px;
     margin-top: 10px;
     float: right;
 }
@@ -137,6 +145,12 @@ P{
     text-align: center;
 }
 
+#recentArts{
+    background: #111;
+    color: #fff;
+    text-align: center;
+}
+
 #recentGames .titulo{
     font-size: 22px;
     text-transform: uppercase;
@@ -144,15 +158,28 @@ P{
     padding: 50px 0 0 0;
 }
 
+#recentArts .titulo{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #5ebfd0;
+    padding: 50px 0 0 0;
+}
+
+#recentArts .box{
+    border: 6px solid #333;
+    padding: 10px;
+}
+
 .box{
-    width: 300px;
-    margin: 5px;
+    width: 260px;
+    margin: 3px;
     display: inline-block;
     vertical-align: top;
-    padding: 5px 5px 5px 5px;
-    border: 1px solid #fff;
-    background-color: black;
+    padding: 10px 10px 25px 10px;
+    border: 6px solid #5ebfd0;
     border-radius: 5px;
+    color: #aaa;
+    background-color: #111;
 }
 
 .box:hover{
@@ -160,15 +187,16 @@ P{
 }
 
 .box h1{
+    text-transform: uppercase;
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 0 0 15px 0;
-    color: #a4e5e3;
+    color: #5ebfd0;
 }
 
 #recentGames figure{
     width: 100%;
-    height: 230px;
+    height: 200px;
     border: 0px solid #fff;
     border-radius: 5px;
     background-position: center;
@@ -176,7 +204,11 @@ P{
     background-size: cover;
 }
 
-#recentGames figure:hover{
+#recentArts figure{
+    width: 100%;
+    height: 265px;
+    border: 0px solid #fff;
+    border-radius: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,32 +226,40 @@ P{
     background: url("../img/Game01Off.png");
 }
 
-#box1:hover{
-    background: url("../img/Game01On.gif");
-}
-
 #box2{
     background: url("../img/Game02Off.png");
-}
-
-#box2:hover{
-    background: url("../img/Game02On.gif");
 }
 
 #box3{
     background: url("../img/Game03Off.png");
 }
 
-#box3:hover{
-    background: url("../img/Game03On.gif");
-}
-
 #box4{
     background: url("../img/Game04Off.png");
 }
 
-#box4:hover{
-    background: url("../img/Game04On.gif");
+#box5{
+    background: url("../img/Game05Off.png");
+}
+
+#artbox1{
+    background: url("../img/art001.png");
+}
+
+#artbox2{
+    background: url("../img/art002.png");
+}
+
+#artbox3{
+    background: url("../img/art003.png");
+}
+
+#artbox4{
+    background: url("../img/art004.png");
+}
+
+#artbox5{
+    background: url("../img/art005.png");
 }
 
 .button{
@@ -248,15 +288,47 @@ P{
         width: 100%;
     }
 
+    .menu{
+        float: left;
+        font-size: 32px;
+    }
+
+    #logo{
+        padding-right: 30px;
+        float: right;
+    }
+
     .menu ul li{
+        margin-top: 5px;
         display: block;
     }
 
     .menu ul{
+        margin-top: 40px;
         display: none;
+    }
+
+    #info{
+        display: none;
+    } 
+
+    p {
+        margin: 25px;
+    }
+
+    .titulo{
+        margin-left: 25px;
+    }
+
+    .subtitulo{
+        margin-left: 25px;
     }
 
     #mobile{
         display: block;
+    }
+
+    .box:hover{
+        margin: 3px;
     }
 }
