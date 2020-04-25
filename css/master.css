@@ -2,11 +2,6 @@
 
 *{margin: 0;padding: 0;}
 
-
-.menu ul{
-    display: block;
-}
-
 #mobile{
     display: none;
 }
@@ -38,7 +33,7 @@ footer{
 }
 
 .container{
-    width: 85%;
+    width: 92%;
     align-items: center;
     margin: 0 auto;
 }
@@ -53,6 +48,15 @@ footer{
     background: url('../img/wppr.png');
     background-size: cover;
     background-position: bottom;
+}
+
+.menu ul{
+    width: 650px;
+    margin-top: 12px;
+    margin-left: 80px;
+    width: 580px;
+    font-size: 20px;
+    display: block;
 }
 
 .menu ul li{
@@ -78,7 +82,6 @@ a{
 }
 
 nav{
-    margin: 12px 16px;
     float: left;
 }
 
@@ -97,12 +100,12 @@ nav{
     display: inline-block;
     list-style: none;
     color: white;
-    padding: 10px 15px;
 }
 
 #info .fab{
     font-size: 22px;
     color: white;
+    padding: 10px 15px;
 }
 
 #info .fab:hover{
@@ -166,17 +169,17 @@ P{
 }
 
 #recentArts .box{
-    border: 6px solid #333;
+    border: 5px solid #333;
     padding: 10px;
 }
 
 .box{
     width: 260px;
-    margin: 3px;
+    margin: 15px 5px;
     display: inline-block;
     vertical-align: top;
     padding: 10px 10px 25px 10px;
-    border: 6px solid #5ebfd0;
+    border: 5px solid #5ebfd0;
     border-radius: 5px;
     color: #aaa;
     background-color: #111;
@@ -184,6 +187,7 @@ P{
 
 .box:hover{
     margin-top: -5px;
+    margin-bottom: 35px;
 }
 
 .box h1{
@@ -289,22 +293,30 @@ P{
     }
 
     .menu{
+        width: 100%;
         float: left;
         font-size: 32px;
+        margin-left: 0px;
     }
 
     #logo{
-        padding-right: 30px;
+        margin-right: 50px;
+        margin-top: 10px;
         float: right;
     }
 
     .menu ul li{
+        list-style: circle;
         margin-top: 5px;
         display: block;
+        padding: 25px 0px 25px 70px;
+        background-color: #333;
     }
 
     .menu ul{
-        margin-top: 40px;
+        margin-top: 115px;
+        width: 100%;
+        margin-left: 0px;
         display: none;
     }
 
@@ -325,10 +337,8 @@ P{
     }
 
     #mobile{
+        padding: 25px 65px;
+        float: left;
         display: block;
-    }
-
-    .box:hover{
-        margin: 3px;
     }
 }
