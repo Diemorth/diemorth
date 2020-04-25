@@ -20,6 +20,13 @@
                     <i class="fas fa-bars"></i>
                 </div>
                 <script type="text/javascript">
+                    $(window).resize(() => {
+                        const width = $(window).width();
+                        if (width > 994)
+                            $('ul').css('display','block');
+                        else
+                            $('ul').css('display','none');
+                    });
                     $('#mobile').on('click', function () {
                         $('ul').toggle();
                     });
