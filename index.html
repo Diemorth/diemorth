@@ -23,15 +23,15 @@
                     $(window).resize(() => {
                         const width = $(window).width();
                         if (width > 994)
-                            $('ul').css('display','block');
+                            $('ul').css('display', 'block');
                         else
-                            $('ul').css('display','none');
+                            $('ul').css('display', 'none');
                     });
                     $('#mobile').on('click', function () {
                         $('ul').toggle();
                     });
                 </script>
-                <ul>
+                <ul id="menuOptions">
                     <a href="#">
                         <li>Home</li>
                     </a>
@@ -53,7 +53,8 @@
                 <ul>
                     <li><a href="https://twitter.com/diemorth"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="https://www.instagram.com/diemorth/"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/diemorth/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/diemorth/"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
                     <li><a href="https://diemorth.itch.io/"><i class="fab fa-itch-io"></i></a></li>
                     <li><a href="https://www.twitch.tv/diemorth"><i class="fab fa-twitch"></i></a></li>
                 </ul>
@@ -202,6 +203,68 @@
 
         </article>
     </section>
+
+    <section id="protoberCase">
+        <article class="container space">
+            <h1 class="titulo">Protober Showcase</h1>
+            <h2 class="subtitulo">Prototypes made during protober!</h2>
+
+            <a href="#">
+                <div class="box">
+                    <figure id="prot1"></figure>
+                    <h1>Day 6 - 2019</h1>
+                    Arcade Cutting Timming
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box">
+                    <figure id="prot2"></figure>
+                    <h1>Day 14 - 2019</h1>
+                    Puzzle Reflex Arcade
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box">
+                    <figure id="prot3"></figure>
+                    <h1>Day 22 - 2019</h1>
+                    Platformer Puzzle
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box">
+                    <figure id="prot4"></figure>
+                    <h1>Day 29 - 2019</h1>
+                    Puzzle Platformer Timming
+                </div>
+            </a>
+
+            <div>
+                <a href="#">
+                    <div class="button">
+                        See More »
+                    </div>
+                </a>
+            </div>
+        </article>
+    </section>
+
+    <section id="contact">
+        <div id="contactContent">
+            <h2><a href="mailto:igorf.gamedev@gmail.com">igorf.gamedev@gmail.com</a></h2>
+            <h2>Tel: +351 915 677 975</h2>
+            <ul id="infoContact">
+                <li><a href="https://twitter.com/diemorth"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/diemorth/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/diemorth/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://diemorth.itch.io/"><i class="fab fa-itch-io"></i></a></li>
+                <li><a href="https://www.twitch.tv/diemorth"><i class="fab fa-twitch"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
     </section>
     <footer>DIEMORTH © 2020</footer>
 </body>
