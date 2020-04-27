@@ -14,14 +14,23 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 19px;
+    min-width: 260px;
 }
 
 header{
     width: 100%;
     background: black;
+    min-width: 260px;
     color: white;
     padding: 20px 0;
     position: fixed;
+}
+
+p{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
@@ -114,13 +123,15 @@ nav{
 
 .titulo{
     font-size: 22px;
+    text-align: center;
     text-transform: uppercase;
-    color: #26428e;
+    color: #5ebfd0;
     padding: 50px 0 0 0;
 }
 
 .subtitulo{
     font-size: 16px;
+    text-align: center;
     color: #aaa;
     text-transform: uppercase;
     padding: 20px 0;
@@ -135,6 +146,12 @@ nav{
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#intro{
+    background: #111;
+    color: #aaa;
+    text-align: center;
 }
 
 P{
@@ -158,27 +175,6 @@ P{
     background: #333;
     color: #fff;
     text-align: center;
-}
-
-#recentGames .titulo{
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #5ebfd0;
-    padding: 50px 0 0 0;
-}
-
-#recentArts .titulo{
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #5ebfd0;
-    padding: 50px 0 0 0;
-}
-
-#protoberCase .titulo{
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #5ebfd0;
-    padding: 50px 0 0 0;
 }
 
 #recentArts .box{
@@ -403,8 +399,11 @@ P{
         display: none;
     }
 
-    p {
-        margin: 25px;
+    p{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .titulo{
