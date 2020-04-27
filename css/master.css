@@ -47,7 +47,7 @@ footer{
     height: 600px;
     background: url('../img/wppr.png');
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .menu ul{
@@ -319,10 +319,6 @@ P{
     margin-bottom: 10px;
 }
 
-
-#contact{
-}
-
 #contact h2{
     font-size: 18px;
     text-align: center;
@@ -341,10 +337,10 @@ P{
 }
 
 #infoContact .fab{
-    margin-top: 5px;
     font-size: 22px;
     color: white;
     padding: 10px 15px;
+    margin-top: 10px;
 }
 
 #infoContact .fab:hover{
@@ -353,11 +349,21 @@ P{
 
 #contactContent{
     width: 100%;
-    height: 350px;
-    padding-top: 250px;
-    background: url('../img/wppr2.png');
+    height: 600px;
+    padding-top: 100px;
+    background: url('../img/wppr.png');
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
+}
+
+
+#logoContact{
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 994px){
