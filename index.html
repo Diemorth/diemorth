@@ -23,12 +23,12 @@
                     $(window).resize(() => {
                         const width = $(window).width();
                         if (width > 994)
-                            $('ul').css('display', 'block');
+                            $('#menuOptions').css('display', 'block');
                         else
-                            $('ul').css('display', 'none');
+                            $('#menuOptions').css('display', 'none');
                     });
                     $('#mobile').on('click', function () {
-                        $('ul').toggle();
+                        $('#menuOptions').toggle();
                     });
                 </script>
                 <ul id="menuOptions">
