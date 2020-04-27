@@ -259,23 +259,23 @@ P{
 }
 
 #box1{
-    background: url("../img/Game01Off.png");
+    background: url("../img/game001.png");
 }
 
 #box2{
-    background: url("../img/Game02Off.png");
+    background: url("../img/game002.png");
 }
 
 #box3{
-    background: url("../img/Game03Off.png");
+    background: url("../img/game003.png");
 }
 
 #box4{
-    background: url("../img/Game04Off.png");
+    background: url("../img/game004.png");
 }
 
 #box5{
-    background: url("../img/Game05Off.png");
+    background: url("../img/game005.png");
 }
 
 #artbox1{
@@ -296,22 +296,6 @@ P{
 
 #artbox5{
     background: url("../img/art005.png");
-}
-
-#prot1{
-    background: url("../img/protober001.gif");
-}
-
-#prot2{
-    background: url("../img/protober002.gif");
-}
-
-#prot3{
-    background: url("../img/protober003.gif");
-}
-
-#prot4{
-    background: url("../img/protober004.gif");
 }
 
 .button{
