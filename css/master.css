@@ -149,7 +149,7 @@ nav{
 }
 
 #intro{
-    background: #111;
+    background: #222;
     color: #aaa;
     text-align: center;
 }
@@ -166,7 +166,7 @@ P{
 }
 
 #recentArts{
-    background: #111;
+    background: #222;
     color: #fff;
     text-align: center;
 }
@@ -196,12 +196,13 @@ P{
     border: 5px solid #5ebfd0;
     border-radius: 5px;
     color: #aaa;
-    background-color: #111;
+    background-color: #222;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .box:hover{
-    margin-top: -5px;
-    margin-bottom: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .box h1{
@@ -212,7 +213,7 @@ P{
     color: #5ebfd0;
 }
 
-#recentGames figure{
+#recentGames img{
     width: 100%;
     height: 200px;
     border: 0px solid #fff;
@@ -222,7 +223,7 @@ P{
     background-size: cover;
 }
 
-#recentArts figure{
+#recentArts img{
     width: 100%;
     height: 265px;
     border: 0px solid #fff;
@@ -246,54 +247,6 @@ P{
     width: 336px;
 }
 
-.reflex{
-    background: url("../img/reflex01.png");
-}
-
-.reflex:hover{
-    background: url("../img/reflex02.png");
-}
-
-#box1{
-    background: url("../img/game001.png");
-}
-
-#box2{
-    background: url("../img/game002.png");
-}
-
-#box3{
-    background: url("../img/game003.png");
-}
-
-#box4{
-    background: url("../img/game004.png");
-}
-
-#box5{
-    background: url("../img/game005.png");
-}
-
-#artbox1{
-    background: url("../img/art001.png");
-}
-
-#artbox2{
-    background: url("../img/art002.png");
-}
-
-#artbox3{
-    background: url("../img/art003.png");
-}
-
-#artbox4{
-    background: url("../img/art004.png");
-}
-
-#artbox5{
-    background: url("../img/art005.png");
-}
-
 .button{
     background-color: black;
     color: white;
@@ -304,15 +257,20 @@ P{
     border-radius: 5px;
     padding: 15px 25px;
     text-transform: uppercase;
-    border-left: 2px solid #5ebfd0;
-    border-right: 2px solid #5ebfd0;
+    border-bottom: 4px solid #5ebfd0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button:hover{
-    border-left: 6px solid #a4e5e3;
-    border-right: 6px solid #a4e5e3;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    border-bottom: 3px solid #a4e5e3;
+    margin-top: 47px;
+    margin-bottom: 4px;
+}
+
+.button:active{
+    border-bottom: 1px solid #a4e5e3;
+    margin-top: 49px;
+    margin-bottom: 4px;
 }
 
 #contact h2{
@@ -360,6 +318,33 @@ P{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.lightbox{
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+    margin-top: 5%;
+    padding: 15px;
+    background-color: #111;
+    border: 5px #333 solid;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
 }
 
 @media screen and (max-width: 994px){
