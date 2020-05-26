@@ -199,6 +199,17 @@ P{
     padding: 10px;
 }
 
+#protober2018{
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+#protober2018 .box{
+    border: 5px solid #5ebfd0;
+    padding: 10px;
+}
+
 .box{
     width: 260px;
     margin: 15px 5px;
@@ -245,16 +256,6 @@ P{
     background-size: cover;
 }
 
-#protoberCase figure{
-    width: 100%;
-    height: 189px;
-    border: 0px solid #fff;
-    border-radius: 5px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #allPixelArts img{
     width: 100%;
     height: 265px;
@@ -266,6 +267,18 @@ P{
 }
 
 #protoberCase .box{
+    width: 336px;
+}
+
+#protoberCase img{
+    width: 336px;
+}
+
+#protober2018 .box{
+    width: 336px;
+}
+
+#protober2018 img{
     width: 336px;
 }
 
@@ -374,6 +387,18 @@ P{
 	outline: none;
 	display: block;
 }
+
+#allPixelArts{
+    padding-top: 100px;
+}
+
+#introProtober{
+    padding-top: 100px;
+    background: #222;
+    color: #aaa;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 994px){
     .container{
