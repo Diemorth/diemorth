@@ -401,6 +401,14 @@ P{
 
 
 @media screen and (max-width: 994px){
+    body{
+        min-width:400px;
+    }
+    
+    .menu{
+        min-width:400px;
+    }
+    
     .container{
         width: 100%;
     }
