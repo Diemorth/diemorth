@@ -178,7 +178,7 @@ P{
     text-align: center;
 }
 
-#protoberCase{
+.protoberCase{
     background: #333;
     color: #fff;
     text-align: center;
@@ -189,7 +189,7 @@ P{
     padding: 10px;
 }
 
-#protoberCase .box{
+.protoberCase .box{
     border: 5px solid #5ebfd0;
     padding: 10px;
 }
@@ -266,19 +266,11 @@ P{
     background-size: cover;
 }
 
-#protoberCase .box{
+.protoberCase .box{
     width: 336px;
 }
 
-#protoberCase img{
-    width: 336px;
-}
-
-#protober2018 .box{
-    width: 336px;
-}
-
-#protober2018 img{
+.protoberCase img{
     width: 336px;
 }
 
@@ -402,11 +394,11 @@ P{
 
 @media screen and (max-width: 994px){
     body{
-        min-width:400px;
+        min-width: 378px;
     }
     
     .menu{
-        min-width:400px;
+        min-width: 378px;
     }
     
     .container{
