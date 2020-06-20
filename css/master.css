@@ -70,6 +70,7 @@ footer{
 }
 
 .menu ul li{
+    transition: .2s;
     list-style: none;
     display: inline-block;
     color: white;
@@ -78,6 +79,7 @@ footer{
 }
 
 .menu ul li:hover{
+    transition: .2s;
     color: #09f;
 }
 
@@ -113,12 +115,14 @@ nav{
 }
 
 #info .fab{
+    transition: .2s;
     font-size: 22px;
     color: white;
     padding: 10px 15px;
 }
 
 #info .fab:hover{
+    transition: .2s;
     color: #09f;
 }
 
@@ -211,6 +215,7 @@ P{
 }
 
 .box{
+    transition: .2s;
     width: 260px;
     margin: 15px 5px;
     display: inline-block;
@@ -224,6 +229,7 @@ P{
 }
 
 .box:hover{
+    transition: .2s;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -295,6 +301,7 @@ P{
 }
 
 .button:active{
+    transition: .2s;
     border-bottom: 1px solid #a4e5e3;
     margin-top: 49px;
     margin-bottom: 4px;
@@ -324,6 +331,7 @@ P{
 }
 
 #infoContact .fab{
+    transition: .2s;
     font-size: 22px;
     color: white;
     padding: 10px 15px;
@@ -331,6 +339,7 @@ P{
 }
 
 #infoContact .fab:hover{
+    transition: .2s;
     color: #09f;
 }
 
