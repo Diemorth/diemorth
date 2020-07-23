@@ -61,10 +61,9 @@ footer{
 }
 
 .menu ul{
-    width: 650px;
+    width: 740px;
     margin-top: 12px;
     margin-left: 80px;
-    width: 580px;
     font-size: 20px;
     display: block;
 }
@@ -397,6 +396,12 @@ P{
     padding-top: 100px;
     background: #222;
     color: #aaa;
+    text-align: center;
+}
+
+#work3DCase {
+    background: #222;
+    color: #fff;
     text-align: center;
 }
 
