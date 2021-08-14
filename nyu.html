@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>~ DIEMORTH</title>
+    <link rel="icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b6811bf3b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <article class="container">
+            <nav class="menu">
+                <img src="img/logo.png" id="logo">
+                <div id="mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <script type="text/javascript">
+                    $(window).resize(() => {
+                        const width = $(window).width();
+                        if (width > 994)
+                            $('#menuOptions').css('display', 'block');
+                        else
+                            $('#menuOptions').css('display', 'none');
+                    });
+                    $('#mobile').on('click', function () {
+                        $('#menuOptions').toggle();
+                    });
+                </script>
+                <ul id="menuOptions">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="index.html#recentGames">
+                        <li>Games</li>
+                    </a>
+                    <a href="pixel-art.html">
+                        <li>Pixel Art</li>
+                    </a>
+                    <a href="#">
+                        <li>Protober</li>
+                    </a>
+                    <a href="index.html#work3DCase">
+                        <li>3D Works</li>
+                    </a>
+                    <a href="index.html#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="info">
+                <ul>
+                    <li><a href="https://twitter.com/diemorth"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/diemorth/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/diemorth/"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li><a href="https://diemorth.itch.io/"><i class="fab fa-itch-io"></i></a></li>
+                    <li><a href="https://www.twitch.tv/diemorth"><i class="fab fa-twitch"></i></a></li>
+                </ul>
+            </div>
+        </article>
+    </header>
+    <section>
+        <div id="introProtober">
+            <article class="container space">
+                <h1 class="titulo">Nyu Studios</h1>
+                <h2 class="subtitulo">Game developer group since 2017</h2>
+                <p>Team formed by <a href="https://twitter.com/diemorth">@diemorth</a>, <a href="https://twitter.com/nyunesu">@nyunesu</a>, <a href="https://twitter.com/Wicked_Nyu">@wicks</a> constantly participating in Ludum Dare and Global Game Jam. We always focus on good game design, code that is always malleable, scalable and reusable, as well as readable and consistent artwork.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="recentGames">
+        <article class="container space">
+            <h1 class="titulo">Nyu Studios</h1>
+            <h2 class="subtitulo">Look our projects!</h2>
+
+            <a href="https://nyunesu.itch.io/deep-down-2">
+                <div class="box">
+                    <img src="img/NyuStudios/game005.png">
+                    <h1>Deep Down 2</h1>
+                    Platformer Cute Precision
+                </div>
+            </a>
+
+            <a href="https://nyunesu.itch.io/snek">
+                <div class="box">
+                    <img src="img/NyuStudios/game004.png">
+                    <h1>Snek</h1>
+                    Puzzle Snake Atmospheric
+                </div>
+            </a>
+
+            <a href="https://globalgamejam.org/2020/games/neverlight-1">
+                <div class="box">
+                    <img src="img/NyuStudios/game003.png">
+                    <h1>Neverlight</h1>
+                    Horror Management Factory
+                </div>
+            </a>
+
+            <a href="https://nyunesu.itch.io/deep-down">
+                <div class="box">
+                    <img src="img/NyuStudios/game002.png">
+                    <h1>Deep Down</h1>
+                    Precision Platform Cute
+                </div>
+            </a>
+
+            <a href="https://nyunesu.itch.io/gun-appetit">
+                <div class="box">
+                    <img src="img/NyuStudios/game001.png">
+                    <h1>Gun Appetit!</h1>
+                    Shooter Top-Down Comical
+                </div>
+            </a>
+
+            <div>
+                <a href="https://diemorth.itch.io/">
+                    <div class="button">
+                        More Games »
+                    </div>
+                </a>
+            </div>
+
+        </article>
+    </section>
+
+    <footer>DIEMORTH © 2020</footer>
+</body>
+
+</html>
