@@ -48,7 +48,7 @@ var gamesAvailable = [
     
    '« ARCANDIES »',
    'Use arcane magic to solve puzzles and create powerful candies!<br>A maze of potions that must be combined to clear the way, our little witch needs your help!<br>20 levels to make you think a little. Try it now! :D',
-   'https://itch.io/embed-upload/1653742',
+   'https://itch.io/embed-upload/4329141',
    'img/Showcase/game005.png',
    'width: 1282px; height: 741px',
    'game',
