@@ -15,7 +15,7 @@ var gamesAvailable = [
     
    '« CACTU-SAMA 2 »',
    'Cactu-Sama 2 is a game where you help our cute cactus to find his Balloon-kouhai again while using colorful blocks to make his path, avoiding water and spikes, solving great puzzles and getting all the art pieces! Use buttons to enable and disable blocks. Prevent the cactus from getting wet with water. A game with simple controls will challenge your brain for a few minutes... Again! Can you beat the 15 level challenge?',
-   'https://itch.io/embed-upload/2190014',
+   'https://itch.io/embed-upload/4329112',
    'img/Showcase/game002.png',
    'width: 1282px; height: 741px',
    'game',
