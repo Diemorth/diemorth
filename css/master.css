@@ -405,6 +405,53 @@ P{
     text-align: center;
 }
 
+/* Showcase Icons no Menu */
+
+.showcaseGameIcon{
+  margin: 3px;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 5px #999;
+  transition: .05s;
+}
+
+.showcaseGameIcon:hover {
+  box-shadow: 0 4px #888;
+  transform: translateY(1px);
+  transition: .05s;
+}
+
+.showcaseGameIcon:active {
+  box-shadow: 0 1px #777;
+  transform: translateY(4px);
+}
+
+#showcaseGameTitle{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5ebfd0;
+    padding: 45px 0 20px 0;
+}
+
+hr{
+    margin: 25px;
+}
+
+.showcaseGameIcon{
+    width: 158px !important;
+    height: 125px !important;
+}
+
+#showcaseGameDescription{
+    text-align: center;
+}
 
 @media screen and (max-width: 1154px){
     body{

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>~ DIEMORTH</title>
+    <link rel="icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b6811bf3b3.js" crossorigin="anonymous"></script>
+    <script type = "text/javascript" src="js/gameList.js"></script>
+</head>
+
+<body>
+    <header>
+        <article class="container">
+            <nav class="menu">
+                <img src="img/logo.png" id="logo">
+                <div id="mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <script type="text/javascript">
+                    $(window).resize(() => {
+                        const width = $(window).width();
+                        if (width > 994)
+                            $('#menuOptions').css('display', 'block');
+                        else
+                            $('#menuOptions').css('display', 'none');
+                    });
+                    $('#mobile').on('click', function () {
+                        $('#menuOptions').toggle();
+                    });
+                </script>
+                <ul id="menuOptions">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="index.html#recentGames">
+                        <li>Games</li>
+                    </a>
+                    <a href="pixel-art.html">
+                        <li>Pixel Art</li>
+                    </a>
+                    <a href="#">
+                        <li>Protober</li>
+                    </a>
+                    <a href="index.html#work3DCase">
+                        <li>3D Works</li>
+                    </a>
+                    <a href="index.html#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="info">
+                <ul>
+                    <li><a href="https://twitter.com/diemorth"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/diemorth/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/diemorth/"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li><a href="https://diemorth.itch.io/"><i class="fab fa-itch-io"></i></a></li>
+                    <li><a href="https://www.twitch.tv/diemorth"><i class="fab fa-twitch"></i></a></li>
+                </ul>
+            </div>
+        </article>
+    </header>
+    <section>
+        <div id="introProtober">
+            <article class="container space">
+                <div id="recent-game-showcase"></div>
+            </article>
+        </div>
+    </section>
+
+    <footer>DIEMORTH © 2020</footer>
+</body>
+
+</html>
