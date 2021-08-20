@@ -6,7 +6,7 @@ var gamesAvailable = [
    'Guide our cute crocodile by solving puzzles with gears and portals in a dream world<br>while trying to remember what happened before you fell asleep.<br>15 cute levels with some good puzzles.',
    'https://itch.io/embed-upload/2935274',
    'img/Showcase/game001.png',
-   'width: 642px; height: 381px',
+   'width: 1282px; height: 741px',
    'game',
    ''
     
@@ -17,7 +17,7 @@ var gamesAvailable = [
    'Cactu-Sama 2 is a game where you help our cute cactus to find his Balloon-kouhai again while using colorful blocks to make his path, avoiding water and spikes, solving great puzzles and getting all the art pieces! Use buttons to enable and disable blocks. Prevent the cactus from getting wet with water. A game with simple controls will challenge your brain for a few minutes... Again! Can you beat the 15 level challenge?',
    'https://itch.io/embed-upload/2190014',
    'img/Showcase/game002.png',
-   'width: 642px; height: 381px',
+   'width: 1282px; height: 741px',
    'game',
    ''
     
@@ -28,7 +28,7 @@ var gamesAvailable = [
    'Guide our cute penguin with colorful and smooth blocks, combining mechanics to solve big puzzles and a big mystery! With impressive songs by TAD and Fupi, Frostwing will make you relax while you exercise your mind!<br>Can you beat all 20 levels to get him to his destination?',
    'https://itch.io/embed-upload/1842046',
    'img/Showcase/game003.png',
-   'width: 642px; height: 381px',
+   'width: 1282px; height: 741px',
    'game',
    ''
     
@@ -39,7 +39,7 @@ var gamesAvailable = [
    'In Starnaut you are drifting in space and have to cross the galaxy managing blocks to avoid getting stuck and collecting stars. Unlock skins when you get stars and get the best time in speedrun mode.<br>Can you beat this 25 level challenge getting all the stars?',
    'https://itch.io/embed-upload/2029207',
    'img/Showcase/game004.png',
-   'width: 642px; height: 381px',
+   'width: 1282px; height: 741px',
    'game',
    ''
     
@@ -50,7 +50,7 @@ var gamesAvailable = [
    'Use arcane magic to solve puzzles and create powerful candies!<br>A maze of potions that must be combined to clear the way, our little witch needs your help!<br>20 levels to make you think a little. Try it now! :D',
    'https://itch.io/embed-upload/1653742',
    'img/Showcase/game005.png',
-   'width: 642px; height: 381px',
+   'width: 1282px; height: 741px',
    'game',
    ''
     
