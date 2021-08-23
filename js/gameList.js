@@ -2,10 +2,10 @@
 var gamesAvailable = [
   [
     
-   '« COGNITE »',
-   'Guide our cute crocodile by solving puzzles with gears and portals in a dream world<br>while trying to remember what happened before you fell asleep.<br>15 cute levels with some good puzzles.',
-   'https://itch.io/embed-upload/2935274',
-   'img/Showcase/game001.png',
+   '« CACTU-SAMA 2 »',
+   'Cactu-Sama 2 is a game where you help our cute cactus to find his Balloon-kouhai again while using colorful blocks to make his path, avoiding water and spikes, solving great puzzles and getting all the art pieces! Use buttons to enable and disable blocks. Prevent the cactus from getting wet with water. A game with simple controls will challenge your brain for a few minutes... Again! Can you beat the 15 level challenge?',
+   'https://itch.io/embed-upload/4329112',
+   'img/Showcase/game002.png',
    'width: 1282px; height: 741px',
    'game',
    ''
@@ -13,10 +13,10 @@ var gamesAvailable = [
   ],
   [
     
-   '« CACTU-SAMA 2 »',
-   'Cactu-Sama 2 is a game where you help our cute cactus to find his Balloon-kouhai again while using colorful blocks to make his path, avoiding water and spikes, solving great puzzles and getting all the art pieces! Use buttons to enable and disable blocks. Prevent the cactus from getting wet with water. A game with simple controls will challenge your brain for a few minutes... Again! Can you beat the 15 level challenge?',
-   'https://itch.io/embed-upload/4329112',
-   'img/Showcase/game002.png',
+   '« COGNITE »',
+   'Guide our cute crocodile by solving puzzles with gears and portals in a dream world<br>while trying to remember what happened before you fell asleep.<br>15 cute levels with some good puzzles.',
+   'https://itch.io/embed-upload/2935274',
+   'img/Showcase/game001.png',
    'width: 1282px; height: 741px',
    'game',
    ''
